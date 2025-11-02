@@ -15,7 +15,14 @@ A simple shell script to list and play music or video files from a directory, wi
    ```bash
    git clone https://github.com/abhay2027/menu‐based‐script.git 
  
--Change into the project directory:
+2. Change into the project directory:
    ```bash
-cd menu-based-script
+   cd menu-based-script
 
+3. Make the script executable:
+   ```bash
+   chmod +x player.sh
+
+4. Run the script:
+   ```bash
+   ./player.sh
