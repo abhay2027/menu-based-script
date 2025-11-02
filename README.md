@@ -12,14 +12,19 @@ A simple shell script to list and play music or video files from a directory, wi
 # Requirments
 Ensure mplayer is installed on your system:
 
+- On Arch Linux
+  ```bash 
+  sudo pacman -S mplayer
+
 - On Debian/Ubuntu
-sudo apt update && sudo apt install mplayer
+   ```bash
+   sudo apt update && sudo apt install mplayer
 
 - On Fedora
-sudo dnf install mplayer
+  ```bash
+  sudo dnf install mplayer
 
-- On Arch Linux
-sudo pacman -S mplayer
+
 
 
 ## Installation
