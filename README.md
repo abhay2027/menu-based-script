@@ -9,6 +9,19 @@ A simple shell script to list and play music or video files from a directory, wi
 - Automatically detects and loads matching `.srt` subtitle files for videos.
 - Uses `mplayer` as the default player (you can adjust it).
 
+## Requirments
+Ensure mplayer is installed on your system:
+
+# On Debian/Ubuntu
+sudo apt update && sudo apt install mplayer
+
+# On Fedora
+sudo dnf install mplayer
+
+# On Arch Linux
+sudo pacman -S mplayer
+
+
 ## Installation
 
 1. Clone the repository:
