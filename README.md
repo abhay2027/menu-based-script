@@ -15,19 +15,7 @@ A simple shell script to list and play music or video files from a directory, wi
    ```bash
    git clone https://github.com/abhay2027/menu‐based‐script.git 
  
- Change into the project directory:
+-Change into the project directory:
+   ```bash
 cd menu-based-script
-Make the script executable:
-chmod +x player.sh
 
-# On Debian/Ubuntu
-sudo apt update && sudo apt install mplayer
-
-# On Fedora
-sudo dnf install mplayer
-
-# On Arch Linux
-sudo pacman -S mplayer
-
-##Run the script:
-./player.sh
