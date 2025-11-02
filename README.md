@@ -23,10 +23,7 @@ Ensure mplayer is installed on your system:
 - On Fedora
   ```bash
   sudo dnf install mplayer
-
-
-
-
+  
 ## Installation
 
 1. Clone the repository:
