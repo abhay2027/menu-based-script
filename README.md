@@ -18,7 +18,7 @@ Ensure mplayer is installed on your system:
 
 - On Debian/Ubuntu
    ```bash
-   sudo apt update && sudo apt install mplayer
+   sudo apt install mplayer
 
 - On Fedora
   ```bash
