@@ -2,7 +2,7 @@
 MEDIA_DIR="$HOME/Music"
 PLAYER="mplayer"
 
-files=$(find "$MEDIA_DIR" 1 -type f \( -iname "*.mp3" -o -iname "*.mp4" -o -iname "*.mkv" \) | sort)
+files=$(find "$MEDIA_DIR" \( -iname "*.mp3" -o -iname "*.mp4" -o -iname "*.mkv" \) | sort)
 
 if [ -z "$files" ]; then
     echo "No media files found in $MEDIA_DIR"
