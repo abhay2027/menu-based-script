@@ -1,3 +1,5 @@
+![Uploading Screenshot_21-Nov_13-40-59_31750.png…]()
+
 # Menu-Based Media Player Script
 
 A simple shell script to list and play music or video files from a directory, with optional subtitle support.
